@@ -1,0 +1,119 @@
+object frmCadastroPadrao: TfrmCadastroPadrao
+  Left = 0
+  Top = 0
+  Caption = 'Cadastro Padr'#227'o'
+  ClientHeight = 267
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 248
+    Width = 635
+    Height = 19
+    Panels = <>
+    ExplicitLeft = 432
+    ExplicitTop = 240
+    ExplicitWidth = 0
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Top = 26
+    Width = 635
+    Height = 222
+    ActivePage = tbsLista
+    Align = alClient
+    TabOrder = 1
+    ExplicitTop = 0
+    ExplicitHeight = 248
+    object tbsLista: TTabSheet
+      Caption = 'Lista'
+      ExplicitLeft = 0
+      ExplicitWidth = 281
+      ExplicitHeight = 165
+      object dbgCadastro: TDBGrid
+        Left = 0
+        Top = 0
+        Width = 627
+        Height = 194
+        Align = alClient
+        TabOrder = 0
+        TitleFont.Charset = DEFAULT_CHARSET
+        TitleFont.Color = clWindowText
+        TitleFont.Height = -11
+        TitleFont.Name = 'Tahoma'
+        TitleFont.Style = []
+      end
+    end
+    object tbsCadastro: TTabSheet
+      Caption = 'NomeCadastro'
+      ImageIndex = 1
+      ExplicitLeft = 8
+      ExplicitTop = 22
+      ExplicitHeight = 220
+    end
+  end
+  object ActionToolBar1: TActionToolBar
+    Left = 0
+    Top = 0
+    Width = 635
+    Height = 26
+    ActionManager = frmMain.acmCadastros
+    Caption = 'ActionToolBar1'
+    Color = clMenuBar
+    ColorMap.DisabledFontColor = 7171437
+    ColorMap.HighlightColor = clWhite
+    ColorMap.BtnSelectedFont = clBlack
+    ColorMap.UnusedColor = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    Spacing = 0
+    ExplicitTop = 8
+  end
+  object MainMenu1: TMainMenu
+    Left = 136
+    Top = 48
+    object Incluir1: TMenuItem
+      Action = frmMain.Action1
+    end
+    object Alterar1: TMenuItem
+      Action = frmMain.Action2
+    end
+    object Salvar1: TMenuItem
+      Action = frmMain.Action3
+    end
+    object Cancelar1: TMenuItem
+      Action = frmMain.Action4
+    end
+    object Excluir1: TMenuItem
+      Action = frmMain.Action5
+    end
+    object Sair1: TMenuItem
+      Action = frmMain.Action6
+    end
+  end
+  object dtsCadastro: TDataSource
+    Left = 184
+    Top = 48
+  end
+  object fdqCadastro: TFDQuery
+    ConnectionName = 'TesteDelphi'
+    Left = 232
+    Top = 48
+  end
+end

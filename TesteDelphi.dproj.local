@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/05/29 17:32:48.000.652,=C:\Users\Leaandro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/05/29 17:33:57.000.146,=C:\Users\Leaandro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/05/19 10:00:31.000.363,=C:\Users\Leaandro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/05/19 11:37:46.000.511,C:\Users\Leaandro\Documents\Embarcadero\Studio\Projects\Unit1.pas=F:\TesteDelphi\main.pas</Transaction>
+    <Transaction>2016/05/19 11:37:46.000.511,C:\Users\Leaandro\Documents\Embarcadero\Studio\Projects\Unit1.dfm=F:\TesteDelphi\main.dfm</Transaction>
+    <Transaction>2016/05/19 11:37:53.000.633,C:\Users\Leaandro\Documents\Embarcadero\Studio\Projects\Project1.dproj=F:\TesteDelphi\TesteDelphi.dproj</Transaction>
+    <Transaction>2016/05/19 15:40:23.357,=F:\TesteDelphi\Unit1.pas</Transaction>
+    <Transaction>2016/05/19 16:07:55.763,F:\TesteDelphi\cadastroPadrao.pas=F:\TesteDelphi\Unit1.pas</Transaction>
+    <Transaction>2016/05/19 16:07:55.763,F:\TesteDelphi\cadastroPadrao.dfm=F:\TesteDelphi\Unit1.dfm</Transaction>
+    <Transaction>2016/05/19 16:10:27.949,=F:\TesteDelphi\Unit1.pas</Transaction>
+    <Transaction>2016/05/19 16:10:51.910,=F:\TesteDelphi\Unit1.pas</Transaction>
+    <Transaction>2016/05/19 16:11:13.288,=F:\TesteDelphi\Unit1.pas</Transaction>
+    <Transaction>2016/05/19 16:20:06.404,=F:\TesteDelphi\Unit1.pas</Transaction>
+    <Transaction>2016/05/19 16:20:56.557,F:\TesteDelphi\Produtos.pas=F:\TesteDelphi\Unit1.pas</Transaction>
+    <Transaction>2016/05/19 16:20:56.557,F:\TesteDelphi\Produtos.dfm=F:\TesteDelphi\Unit1.dfm</Transaction>
+    <Transaction>2016/05/19 16:27:37.174,F:\TesteDelphi\Produtos.pas=</Transaction>
+    <Transaction>2016/05/19 16:27:49.096,F:\TesteDelphi\Produtos.dfm=F:\TesteDelphi\cadastroPadrao.dfm</Transaction>
+    <Transaction>2016/05/19 16:27:49.096,F:\TesteDelphi\Produtos.pas=F:\TesteDelphi\cadastroPadrao.pas</Transaction>
+    <Transaction>2016/05/19 16:27:49.107,F:\TesteDelphi\cadastroPadrao.dfm=F:\TesteDelphi\Produtos.dfm</Transaction>
+    <Transaction>2016/05/19 16:27:49.107,F:\TesteDelphi\cadastroPadrao.pas=F:\TesteDelphi\Produtos.pas</Transaction>
+    <Transaction>2016/05/19 16:28:09.714,F:\TesteDelphi\Produtos.dfm=F:\TesteDelphi\cadastroPadrao.dfm</Transaction>
+    <Transaction>2016/05/19 16:28:09.714,F:\TesteDelphi\Produtos.pas=F:\TesteDelphi\cadastroPadrao.pas</Transaction>
+  </Transactions>
+</BorlandProject>

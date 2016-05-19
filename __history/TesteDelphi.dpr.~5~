@@ -1,0 +1,18 @@
+program TesteDelphi;
+
+uses
+  Vcl.Forms,
+  main in 'main.pas' {frmMain},
+  cadastroPadrao in 'cadastroPadrao.pas' {frmCadastroPadrao},
+  Produtos in 'Produtos.pas' {frmCadastroPadrao1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmMain, frmMain);
+  Application.CreateForm(TfrmCadastroPadrao, frmCadastroPadrao);
+  Application.CreateForm(TfrmCadastroPadrao1, frmCadastroPadrao1);
+  Application.Run;
+end.
